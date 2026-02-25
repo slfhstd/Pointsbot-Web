@@ -1,15 +1,4 @@
-.scoreboard {
-  display: inline-block;
-  justify-content: center;
-  border-radius: 25px;
-  background: white;
-  padding:30px;
-  width: 50%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
+
 
 body {
   min-height: 100vh;
@@ -82,8 +71,8 @@ header img {
   border-radius: 22px;
   box-shadow: 0 4px 32px rgba(10,247,58,0.10);
   padding: 2rem 2.5rem;
-  width: 100%;
   max-width: 700px;
+  margin: 0 auto 2rem auto;
   overflow-x: auto;
   text-align: center;
   display: block;
