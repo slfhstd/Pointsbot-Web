@@ -7,6 +7,8 @@ COPY index.html .
 COPY index.php .
 COPY style.css .
 
+RUN mkdir -p /DB
+
 EXPOSE 80
 # Run the script
 CMD ["apache2-foreground"]
