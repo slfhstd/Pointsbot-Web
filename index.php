@@ -18,7 +18,7 @@
 	<nav class="nav">
 		<a href="https://www.reddit.com/r/minecrafthelp/" class="button"><span>r/MinecraftHelp</span></a>
 	</nav>
-	<div class="description">
+	<div class="description" align=center>
 		r/MinecraftHelp Points Scoreboard!
 	</div>
 	<main>
