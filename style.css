@@ -23,6 +23,8 @@ body {
   align-items: center;
   width: 100%;
   justify-content: center;
+  width: 100vw;
+}
 }
 
 
@@ -101,7 +103,8 @@ header img {
   color: #fff;
   font-weight: 700;
   border-radius: 10px 10px 0 0;
-}
+  max-width: 700px;
+  margin: 0 auto;
 .scoreboard tr:nth-child(even) {
   background: #f6f6f6;
 }
