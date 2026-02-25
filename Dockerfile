@@ -1,4 +1,4 @@
-FROM php:8.5-apache
+FROM php:7.4-apache
 
 # Copy application files
 WORKDIR /var/www/html/
