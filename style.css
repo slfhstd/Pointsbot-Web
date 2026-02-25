@@ -24,6 +24,19 @@ scoreboard {
 
 }
 
+.footer {
+	border-radius: 10px;
+  background-color: #0AF73A;
+  padding: 5px;
+	width: 75%;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: green;
+	
+}
+
 .nav {
   	padding-bottom: 10px;
   	width: 90%;
@@ -38,7 +51,18 @@ scoreboard {
   top: 50%;
   left: 50%;
 }
-.footer {
+img {
+  border-radius: 20px;
+  width: 100%;
+  padding: 5;
+}
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+	margin-top: 10px;
+    width: 70%;
+    clear: both;
+    height: 100%;
     background-color: black;
     padding-top: 30px ; 
 	padding-bottom: 30px ;
