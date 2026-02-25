@@ -17,7 +17,8 @@
 	</header>
 	<nav class="nav">
 		<a href="https://www.reddit.com/r/minecrafthelp/" class="button"><span>r/MinecraftHelp</span></a>
-	</nav>
+	  <a href="https://status.mchelp.uk" class="button"><span>Bot Status</span></a>
+  </nav>
 	<div class="description" align=center>
 		r/MinecraftHelp Points Scoreboard!
 	</div>
