@@ -22,7 +22,7 @@
 		r/MinecraftHelp Points Scoreboard!
 	</div>
 	<main>
-		<section class="scoreboard">
+		<section class="scoreboard",align=center>
 			<?php
 			$myPDO = new PDO('sqlite:/DB/pointsbot.db');
 			$result = $myPDO->query("SELECT * FROM redditor WHERE name != 'LONGGGGGGGGGGGGGGGGG' AND name != 'boluserectus' AND name != 'tempestalphaprime'AND name != 'Old_Man_D' AND name != 'Fish_001' AND name != 'The_1_Bob' AND name != 'Hoppprx' AND name != 'Mindcraftjoe' AND name != 'WhiteLotusJr' AND name != 'sup0042' AND name != 'chair_all_day' AND name != 'investthings' AND name != 'Testing2001' AND name != 'JuDg3_Jacob' AND name != 'S-Quidmonster' AND name != 'jose345no' AND name != 'dubwhale' AND name != '_chaosophy_' AND name != 'Pr04merican' AND name != 'Pi__3' AND name != 'kpkrl28' AND name != 'Oneill4' AND name != 'kjun5946' AND name != 'Tailmc' AND name != 'PikePalan' AND name != 'qxzyxzwqw' AND name != 'D0CTOR_ZED' AND name != 'emulatorguy076' AND name != 'MNLegoBoy' AND name != 'TetsuNoGemu' AND name != 'Srazkat' AND name != 'thE_29' AND name != 'WafflesYT1' AND name != 'Supercrafter1729' AND name != 'MinecraftHelpModTeam' AND name != 'ScottishCrafter'  AND name != 'Greymagic27_' AND points >= '5' ORDER BY points DESC;");
