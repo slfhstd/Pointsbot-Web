@@ -39,7 +39,7 @@
 	</main>
 	<footer>
 		<div class="footer">
-			<span><a href="https://reddit.com/u/NitwitBot/">u/NitwitBot</a> uses <a href="https://github.com/slfhstd/PointsBot">Pointsbot</a>.</span>
+			<span><a href="https://reddit.com/u/NitwitBot/">u/NitwitBot</a> uses <a href="https://github.com/slfhstd/MCH-Pointsbot">MCH-Pointsbot</a>.</span>
 		</div>
 	</footer>
 </body>
