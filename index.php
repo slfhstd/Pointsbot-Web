@@ -12,7 +12,7 @@
 <body>
 	<header>
 		<a href="https://reddit.com/r/minecrafthelp/" target="_blank">
-			<img src="../img/header_image_small.png" alt="r/MinecraftHelp banner">
+			<img src="../img/header-image_small.png" alt="r/MinecraftHelp banner">
 		</a>
 	</header>
 	<nav class="nav">
