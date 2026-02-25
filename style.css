@@ -1,0 +1,90 @@
+scoreboard {
+  display: inline-block;
+  justify-content: center;
+  border-radius: 25px;
+  background: white;
+  padding:30px;
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 5px;
+}
+.description {
+	border-radius: 10px;
+	background-color: #0AF73A;
+  	padding: 5px;
+  	width: 60%;
+  	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: black;
+
+}
+
+.nav {
+  	padding-bottom: 10px;
+  	width: 90%;
+  	height: 30px;
+	margin-left: auto;
+    margin-right: auto;
+	
+
+}
+.centered {
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+}
+.footer {
+    background-color: black;
+    padding-top: 30px ; 
+	padding-bottom: 30px ;
+    margin: 2 auto;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 100%;
+    text-align: center;
+    line-height: 1.5;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: #0AF73A 0px 0px 50px;}
+	
+	.button {
+  background-color: #0AF73A; /* Green */
+  border: none;
+  border-radius: 25px;
+  color: black;
+  padding: 5px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+  .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}

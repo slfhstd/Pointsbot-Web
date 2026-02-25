@@ -1,0 +1,8 @@
+services:
+  php:
+    image: ghcr.io/slfhstd/pointsbot-web:dev
+    ports:
+      - 8555:80
+    volumes:
+      - /docker/data/pointsbot/data:/home/pi/.pointsbot
+    restart: unless-stopped
