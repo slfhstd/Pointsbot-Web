@@ -12,7 +12,7 @@
 <body>
 	<header>
 		<a href="https://reddit.com/r/minecrafthelp/" target="_blank">
-			<img src="../img/header.png" alt="r/MinecraftHelp banner">
+			<img src="../img/header_image_small.png" alt="r/MinecraftHelp banner">
 		</a>
 	</header>
 	<nav class="nav">
@@ -38,7 +38,7 @@
 	</main>
 	<footer>
 		<div class="footer">
-			<span><a href="https://reddit.com/u/NitwitBot/">u/NitwitBot</a> uses <a href="https://github.com/cur33/PointsBot">Pointsbot by GlipGlorp7</a>.</span>
+			<span><a href="https://reddit.com/u/NitwitBot/">u/NitwitBot</a> uses <a href="https://github.com/slfhstd/PointsBot">Pointsbot</a>.</span>
 		</div>
 	</footer>
 </body>
