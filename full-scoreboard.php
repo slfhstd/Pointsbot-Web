@@ -6,7 +6,7 @@
 	<meta http-equiv="Content-Language" content="en">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="img/favicon.ico">
-	<title>r/MinecraftHelp Main Scoreboard!</title>
+	<title>r/MinecraftHelp Full Scoreboard</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,20 +17,20 @@
 			</a>
 		</header>
 		<nav class="nav" aria-label="Main navigation">
-			<a href="https://www.reddit.com/r/minecrafthelp/" class="button primary"><span>r/MinecraftHelp</span></a>
+			<a href="index.php" class="button primary"><span>Top 20</span></a>
 		</nav>
 		<div class="description">
 			<span class="eyebrow">Community leaderboard</span>
-			<h1>r/MinecraftHelp Points Scoreboard</h1>
+			<h1>Full r/MinecraftHelp Scoreboard</h1>
 		</div>
 		<main class="content">
-			<section class="scoreboard" aria-label="Points leaderboard">
+			<section class="scoreboard" aria-label="Full Points leaderboard">
 				<div class="leaderboard-head">
 					<div>
 						<p class="leaderboard-kicker">Live standings</p>
-						<h2>Top 20 Helpers</h2>
+						<h2>All Helpers</h2>
 					</div>
-					<a href="full-scoreboard.php" class="button secondary">View full scoreboard</a>
+					<a href="index.php" class="button secondary">Top 20</a>
 				</div>
 				<div class="search-wrap">
 					<label class="search-label" for="user-search">Search username</label>
@@ -78,11 +78,11 @@
 					'ScottishCrafter',
 					'Greymagic27_'
 				];
-				$liveQuery = 'SELECT * FROM redditor WHERE name NOT IN (' . implode(',', array_map([$myPDO, 'quote'], $excludedNames)) . ') AND points >= 5 ORDER BY points DESC LIMIT 20';
-				$liveRows = $myPDO->query($liveQuery)->fetchAll(PDO::FETCH_ASSOC);
+				$fullQuery = 'SELECT * FROM redditor WHERE name NOT IN (' . implode(',', array_map([$myPDO, 'quote'], $excludedNames)) . ') AND points >= 5 ORDER BY points DESC';
+				$fullRows = $myPDO->query($fullQuery)->fetchAll(PDO::FETCH_ASSOC);
 				echo '<table id="leaderboard-table"><thead><tr><th>Place</th><th>Username</th><th>Points</th></tr></thead><tbody>';
 				$place = 1;
-				foreach ($liveRows as $row) {
+				foreach ($fullRows as $row) {
 					echo '<tr data-name="' . htmlspecialchars($row['name'], ENT_QUOTES) . '"><td>' . $place++ . '</td><td>' . htmlspecialchars($row['name']) . '</td><td>' . htmlspecialchars($row['points']) . '</td></tr>';
 				}
 				echo '</tbody></table>';

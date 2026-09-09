@@ -5,6 +5,7 @@ WORKDIR /var/www/html/
 COPY img ./img
 COPY index.html .
 COPY index.php .
+COPY full-scoreboard.php .
 COPY style.css .
 
 RUN mkdir -p /DB

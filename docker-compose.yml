@@ -5,5 +5,5 @@ services:
     ports:
       - 8555:80
     volumes:
-      - /docker/data/pointsbot/data:/DB
+      - ./DB:/DB
     restart: unless-stopped
